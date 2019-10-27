@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Farsan|Hepta+Slab|Lacquer|Slabo+27px|Satisfy&display=swap");
+
+body {
+	font-family: 'Hepta Lab', serif;
+	font-size: 18px; 
+	background-color: #fec8c9;
+	}
+
+h1 {
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	}
+
+h2 {
+	font-weight: lighter;
+	color: #FC5C5C;
+	font-weight: bold;
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 40px;
+	font-family: 'Farsan', sans-serif;
+	}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: 'Farsan', sans-serif;
+  font-weight: bold;
+}
+a:hover {
+  color: #fda5a6;
+  text-decoration: none;
+}
+
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/macarons1.jpg");
+	height: 375px;
+	color: #77CCD0;
+	padding: 50px 0px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+	}
+
+.banner h1 {
+	color: #77CCD0;
+	font-size: 45px;
+	font-weight: bolder;
+	}
+
+.banner h2 {
+	color: #FC5C5C;
+	font-size: 26px;
+	font-weight: lighter;
+	}
+
+.banner p {
+	color: #FEC8C9;
+	font-size: 18px;
+	font-weight: lighter;
+	}
+
+.banner img {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+.btn-blue { 
+	background-color: #77CCD0;
+	color : #FC5C5C;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-size: 30px;
+	}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+.card {
+	padding:20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	}
+
+.card img {
+	width: 100px;
+	border-radius: 6px;
+	}
+
+.card h3 {
+	color: #FC5C5C;
+	font-weight: bold;
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 30px;
+	font-family: 'Farsan', sans-serif;
+	}
+
+.container {
+	width: 700px ;
+	margin: 0px auto;
+	}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px; 
+		}
+	}
+
+@media (max-width: 550px) {
+	.container {
+		width: 400px; 
+		}
